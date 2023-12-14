@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/test-lifedev/static/css/main.c5333850.css",
+    "main.js": "/test-lifedev/static/js/main.9e2881a5.js",
+    "static/media/symbol-defs.svg": "/test-lifedev/static/media/symbol-defs.dccbdc8470af4689ebcaf206178e1b65.svg",
+    "index.html": "/test-lifedev/index.html",
+    "main.c5333850.css.map": "/test-lifedev/static/css/main.c5333850.css.map",
+    "main.9e2881a5.js.map": "/test-lifedev/static/js/main.9e2881a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5333850.css",
+    "static/js/main.9e2881a5.js"
+  ]
+}
