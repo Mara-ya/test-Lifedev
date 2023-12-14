@@ -1,0 +1,132 @@
+.greeting {
+    font-size: 24px;
+    padding-left: 18px;
+    margin-bottom: 51px;
+}
+
+.customers {
+    padding: 10px 24px 20px 18px;
+    background-color: #FFFFFF;
+}
+
+.customers__header {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.customers__header__title {
+    font-size: 14px;
+}
+
+.customers__header__desc {
+    color: #16C098;
+}
+
+.customers__input{
+    position: relative;
+
+    & input {
+        width: 216px;
+        height: 38px;
+        box-sizing: border-box;
+        background: #F9FBFF;
+        border-radius: 10px;
+        outline: none;
+        border: 0;
+        padding: 10px 10px 10px 40px;
+    }
+
+    & label {
+        position: absolute;
+        top: 7px;
+        left: 8px;
+    }
+}
+
+.wrapper-table {
+    overflow-x: auto;
+}
+
+.customers__table {
+    width: 100%;
+    margin-bottom: 30px;
+    overflow-x: auto;
+
+    & td {
+        padding: 10px;
+        margin: 0;
+        border-bottom: 1px #EEEEEE solid;
+    }
+
+    & tr {
+        height: 69px;
+    }
+}
+
+
+.customers__table__titles {
+    color: #B5B7C0;
+}
+
+.customer-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 29px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+    &.active {
+        background-color: #16C09861;
+        border: 1px #008767 solid;
+        color: #008767;
+    }
+    
+    &.inactive {
+        background-color: #FFC5C5;
+        border: 1px #DF0404 solid;
+        color: #DF0404;
+    }
+}
+
+.customers__bottom {
+    display: block;
+    align-items: center;
+    & p {
+        color: #B5B7C0;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .customers {
+        padding: 20px 34px 30px 28px;
+    }
+
+    .customers__header {
+        display: flex;
+    }
+    
+    .customers__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & p {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .customers {
+        padding: 30px 44px 40px 38px;
+    }
+
+    .customers__header__title {
+        font-size: 22px;
+    }
+
+}
