@@ -3,7 +3,7 @@ import symbolDefs from 'assets/images/symbol-defs.svg';
 export const Filter = ({inputValue, onChange}) => {
     return (
         <>
-            <label for='search'>
+            <label htmlFor='search'>
                 <svg>
                     <use href={`${symbolDefs}#search`}></use>
                 </svg>
