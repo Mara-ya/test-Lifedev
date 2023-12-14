@@ -10,7 +10,7 @@ import { HelpPage } from 'pages/Help';
 
 const router = createBrowserRouter([
   {
-      path: '/',
+      path: '/test-lifedev/',
       element: <Layout />,
       children: [
         {
