@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/test-lifedev/static/css/main.a5367fe0.css",
-    "main.js": "/test-lifedev/static/js/main.6c50d095.js",
+    "main.js": "/test-lifedev/static/js/main.af9fb639.js",
     "static/media/symbol-defs.svg": "/test-lifedev/static/media/symbol-defs.dccbdc8470af4689ebcaf206178e1b65.svg",
     "index.html": "/test-lifedev/index.html",
     "main.a5367fe0.css.map": "/test-lifedev/static/css/main.a5367fe0.css.map",
-    "main.6c50d095.js.map": "/test-lifedev/static/js/main.6c50d095.js.map"
+    "main.af9fb639.js.map": "/test-lifedev/static/js/main.af9fb639.js.map"
   },
   "entrypoints": [
     "static/css/main.a5367fe0.css",
-    "static/js/main.6c50d095.js"
+    "static/js/main.af9fb639.js"
   ]
 }
